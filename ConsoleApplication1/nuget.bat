@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM Source is where we check out from SVN on the build server
-set Source=C:\HB\hostelbookers.messaging\hostelbookers.messaging\Hostelbookers.Messaging
+set Source=%1%
 
 echo Base Source Path is %Source%
 if not exist %Source% echo Source Path does NOT exist
@@ -10,7 +10,7 @@ set NuGetRepository=C:\HB\hostelbookers.messaging\hostelbookers.messaging\nuget
 REM set NuGetRepositoryKey=600af901-2305-4783-b25b-3d7f9d25ad6d
 
 REM set up the versions to give the nuget packages
-set version=1.0.1
+set version=1.0.1.0
 
 REM override versions here if required, otherwise just set to %version%
 set configVersion=%version%
@@ -18,7 +18,7 @@ set configVersion=%version%
 REM This is where we tell TeamCity to build the solution to on the build server, so all DLLs end up in this folder
 set binaryFiles=%Source%\..\Binaries\
  
-call :PublishNuGet Hostelbookers.Messaging.Configurations %configVersion%
+call :PublishNuGet ClassLibrary1 %configVersion%
 
 exit 0
 

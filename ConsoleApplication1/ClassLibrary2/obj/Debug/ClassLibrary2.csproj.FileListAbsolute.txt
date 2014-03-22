@@ -1,0 +1,5 @@
+C:\TeamCityProjects\ConsoleApplication1\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\TeamCityProjects\ConsoleApplication1\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\TeamCityProjects\ConsoleApplication1\ClassLibrary2\obj\Debug\ClassLibrary2.csprojResolveAssemblyReference.cache
+C:\TeamCityProjects\ConsoleApplication1\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\TeamCityProjects\ConsoleApplication1\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
